@@ -12,6 +12,7 @@ namespace Pantokrator.Graphql.Data
 
             services.AddRepositoryModule();
             services.AddScoped<IEmployeeRepository, EmployeeRepository>();
+            services.AddScoped<IPersonRepository, PersonRepository>();
             return services;
         }
     }

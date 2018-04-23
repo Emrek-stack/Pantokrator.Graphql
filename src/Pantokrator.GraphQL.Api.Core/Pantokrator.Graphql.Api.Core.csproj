@@ -22,6 +22,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Graphql\Queries\" />
+    <Folder Include="Graphql\Types\" />
     <Folder Include="Models\" />
   </ItemGroup>
 
