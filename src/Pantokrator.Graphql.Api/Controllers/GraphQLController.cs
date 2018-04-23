@@ -2,7 +2,6 @@
 using GraphQL;
 using GraphQL.Types;
 using Microsoft.AspNetCore.Mvc;
-using Pantokrator.Graphql.Api.Graphql.Models;
 using Pantokrator.Graphql.Api.Graphql.Queries;
 using Pantokrator.Graphql.Data.Repository;
 using Pantokrator.GraphQL.Api.Core.Controllers;

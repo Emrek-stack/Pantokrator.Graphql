@@ -1,4 +1,4 @@
-﻿namespace Pantokrator.Graphql.Api.Graphql.Models
+﻿namespace Pantokrator.Graphql.Api.Core.Graphql.Models
 {
     public class GraphqlQuery
     {
