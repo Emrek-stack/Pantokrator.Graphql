@@ -7,6 +7,7 @@ namespace Pantokrator.Graphql.Data.Repository.Impl
     {
         public PersonRepository(AdventureWorks context) : base(context)
         {
+            
         }
     }
 }
