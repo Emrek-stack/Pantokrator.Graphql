@@ -1,0 +1,49 @@
+# Notes:
+#   - Minimal appveyor.yml file is an empty file. All sections are optional.
+#   - Indent each level of configuration with 2 spaces. Do not use tabs!
+#   - All section names are case-sensitive.
+#   - Section names should be unique on each level.
+
+#---------------------------------#
+#      general configuration      #
+#---------------------------------#
+
+# version format
+version: 1.0.{build}
+# you can use {branch} name in version format too
+# version: 1.0.{build}-{branch}
+    
+#---------------------------------#
+#    environment configuration    #
+#---------------------------------#
+
+# Build worker image (VM template)
+image: Visual Studio 2017
+
+environment:
+  # Don't report back to the mothership
+  DOTNET_CLI_TELEMETRY_OPTOUT: 1
+
+
+#-----------------------------------------------------------------#
+# Build configuration.                                            #
+#-----------------------------------------------------------------#
+
+# build Configuration, i.e. Debug, Release, etc.
+configuration: Release
+
+build: off
+
+before_build:
+  - appveyor-retry dotnet restore "src\Pantokrator.Graphql.Api" -v Minimal
+# - appveyor-retry dotnet restore "src\Pantokrator.Graphql.Api.Core" -v Minimal
+
+build_script:
+  - dotnet build "src\Pantokrator.Graphql.Api" -c %CONFIGURATION%
+# - dotnet build "src\Pantokrator.Graphql.Api.Core" -c %CONFIGURATION%
+
+#-----------------------------------------------------------------#
+# Test configuration.                                             #
+#-----------------------------------------------------------------#
+
+test: off

@@ -3,19 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pantokrator.Graphql.Api", "src\Pantokrator.Graphql.Api\Pantokrator.Graphql.Api.csproj", "{AA26D9B5-59AA-4AD2-95A4-FE6D48B74F63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pantokrator.Graphql.Api", "src\Pantokrator.Graphql.Api\Pantokrator.Graphql.Api.csproj", "{AA26D9B5-59AA-4AD2-95A4-FE6D48B74F63}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pantokrator.Graphql.Data", "src\Pantokrator.Graphql.Data\Pantokrator.Graphql.Data.csproj", "{1F5FE6EA-09EA-489C-9034-5E6709243E34}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pantokrator.Graphql.Data", "src\Pantokrator.Graphql.Data\Pantokrator.Graphql.Data.csproj", "{1F5FE6EA-09EA-489C-9034-5E6709243E34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pantokrator.Graphql.Data.Test", "test\Pantokrator.Graphql.Data.Test\Pantokrator.Graphql.Data.Test.csproj", "{2AA5F0DA-F6CA-494F-BEB5-32D889F2EA26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pantokrator.Graphql.Data.Test", "test\Pantokrator.Graphql.Data.Test\Pantokrator.Graphql.Data.Test.csproj", "{2AA5F0DA-F6CA-494F-BEB5-32D889F2EA26}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pantokrator.Graphql.Api.Core", "src\Pantokrator.GraphQL.Api.Core\Pantokrator.Graphql.Api.Core.csproj", "{BF85C9A1-34D9-49FB-A5FF-E3DB0968749B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pantokrator.Graphql.Core", "src\Pantokrator.GraphQL.Core\Pantokrator.Graphql.Core.csproj", "{944426F1-76E2-4C54-882F-E5FEE1609420}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pantokrator.Graphql.Core", "src\Pantokrator.GraphQL.Core\Pantokrator.Graphql.Core.csproj", "{944426F1-76E2-4C54-882F-E5FEE1609420}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4D4E481A-F930-43B7-9F65-776C4B22226D}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
+		appveyor.yml = appveyor.yml
 	EndProjectSection
 EndProject
 Global
